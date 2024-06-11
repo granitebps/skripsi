@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const bodyParser = require("body-parser");
 const brain = require("brain.js");
-const mysql = require("mysql");
+const mysql = require("mysql2");
 
 const app = express();
 
